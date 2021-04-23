@@ -4,10 +4,7 @@ apiVersion: v2
 appVersion: 3.8.14
 dependencies:
   - name: common
-    repository: https://charts.bitnami.com/bitnami
-    tags:
-      - bitnami-common
-    version: 1.x.x
+    repository: file://../common
 description: Open source message broker software that implements the Advanced Message Queuing Protocol (AMQP)
 engine: gotpl
 home: https://github.com/judsoncoelho/charts/tree/master/bitnami/rabbitmq
